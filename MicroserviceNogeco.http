@@ -1,0 +1,9 @@
+@MicroserviceNogeco_HostAddress = http://localhost:5071
+
+GET {{MicroserviceNogeco_HostAddress}}/Notification/
+
+GET {{MicroserviceNogeco_HostAddress}}/Notification/
+
+Accept: application/json
+
+###

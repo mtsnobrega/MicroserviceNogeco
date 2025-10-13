@@ -1,0 +1,88 @@
+[
+  {
+    "ContainingType": "MicroserviceNogeco.Controllers.NotificationController\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRoutesNotification\u003Eb__0_0",
+    "RelativePath": "notification/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "MicroserviceNogeco.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Description": "Este endpoint recebe os dados do evento e envia uma notifica\u00E7\u00E3o para os usu\u00E1rios com base no filtro."
+  },
+  {
+    "ContainingType": "MicroserviceNogeco.Controllers.NotificationController\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRoutesNotification\u003Eb__0_2",
+    "RelativePath": "notification/canceled_event",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MicroserviceNogeco.Controllers.NotificationController\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRoutesNotification\u003Eb__0_1",
+    "RelativePath": "notification/emergency",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "MicroserviceNogeco.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MicroserviceNogeco.Controllers.PresenceController\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRoutesPresence\u003Eb__0_0",
+    "RelativePath": "presence/accept-work",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "frella_accept",
+        "Type": "MicroserviceNogeco.Models.Frellancer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Presence_Control"
+    ]
+  }
+]
