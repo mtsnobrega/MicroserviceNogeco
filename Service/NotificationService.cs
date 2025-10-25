@@ -1,4 +1,5 @@
 ﻿using MicroserviceNogeco.Models;
+using MicroserviceNogeco.Models.FactoryNotificationSender;
 using MicroserviceNogeco.Models.StrategyNotificationSender;
 using MicroserviceNogeco.Models.StrategySearchFrellancer;
 using MicroserviceNogeco.Repository;
@@ -12,35 +13,44 @@ namespace MicroserviceNogeco.Service
     {
         //Injeção de dependencia para que
         //private readonly IFrellaRepository _userRepository;
-        private readonly INotificationSender _sender;
-
-        public NotificationService(IFrellaRepository userRepository, INotificationSender sender)
+        private readonly NotificationFactory _factory;
+        public NotificationService(NotificationFactory factory)
         {
-            _sender = sender;
+            _factory = factory;
         }
 
         // Envio de notificação baseado em filtro de skill e dia da semana
         public async Task<string> Send_NormalNotification(Notification notification, IFrellancerSearchStrategy searchStrategy)
         {
-
-            // Buscar usuários que atendem ao filtro
+            
             var usuarios = await searchStrategy.Search(notification);
+
+            var senders = _factory.GetAllSenders(); // e-mail + whatsapp, etc.
 
             if (!usuarios.Any())
                 return "Nenhum freelancer encontrado para os filtros.";
 
-            // Simulação de envio
             foreach (var u in usuarios)
             {
                 Console.WriteLine($"Enviando notificação para {u.Nome} ({u.Email})");
-                await _sender.Send(notification, u);
+
+                // Enviar por todos os canais
+                foreach (var sender in senders)
+                {
+                    try
+                    {
+                        await sender.Send(notification, u);
+                        Console.WriteLine($"Notificação enviada via {sender.GetType().Name} para {u.Nome}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Erro ao enviar via {sender.GetType().Name} para {u.Nome}: {ex.Message}");
+                    }
+                }
             }
 
-            return $"Notificação enviada para {usuarios.Count} freelancers.";
+            return $"Notificação enviada para {usuarios.Count} freelancers em todos os canais disponíveis.";
         }
-
-
-
 
 
         public async Task<string> Send_EmergencyNotification(Notification notification, IFrellancerSearchStrategy searchStrategy)
@@ -51,7 +61,7 @@ namespace MicroserviceNogeco.Service
             if (!usuarios.Any())
                 return "Nenhum freelancer encontrado para os filtros.";
 
-            // Simulação de envio
+            
             foreach (var u in usuarios)
             {
                 Console.WriteLine($"Enviando notificação para {u.Nome} ({u.Email})");

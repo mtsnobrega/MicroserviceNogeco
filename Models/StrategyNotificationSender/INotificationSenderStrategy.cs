@@ -1,7 +1,8 @@
 ﻿namespace MicroserviceNogeco.Models.StrategyNotificationSender
 {
-    public interface INotificationSender
+    public interface INotificationSenderStrategy
     {
+        string ChannelName { get; }
         Task Send(Notification notification, Frellancer recipient);
     }
 }

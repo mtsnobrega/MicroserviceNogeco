@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroserviceNogeco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35bce6e8b0614fc12fed90868dd89e56ea34359d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroserviceNogeco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroserviceNogeco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

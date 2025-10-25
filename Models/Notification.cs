@@ -10,7 +10,7 @@ namespace MicroserviceNogeco.Models
         public string ValorPago { get; set; }
         public string NomeEvento { get; set; }
         public string DescricaoEvento { get; set; }
-        public DateTime DataEvento { get; set; }
+        public string DataEvento { get; set; }
         public string LocalEvento { get; set; }
         public string HoraEvento { get; set; }
         public string? Skill_1 { get; set; }
@@ -20,7 +20,7 @@ namespace MicroserviceNogeco.Models
         //public string LinkAprovação;
 
         public Notification() { }
-        public Notification(string nomeEvento, string descricaoEvento, DateTime dataEvento, string localEvento, string skill, string diasemana, bool isEmergency)
+        public Notification(string nomeEvento, string descricaoEvento, string dataEvento, string localEvento, string skill, string diasemana, bool isEmergency, string nomeEmpresa, string valorPago, string horaEvento)
         {
             this.NomeEvento = nomeEvento;
             this.DescricaoEvento = descricaoEvento;
@@ -29,6 +29,10 @@ namespace MicroserviceNogeco.Models
             this.Skill_1 = skill;
             this.DiaSemana = diasemana;
             this.IsEmergency = isEmergency;
+
+            this.NomeEmpresa = nomeEmpresa;
+            this.ValorPago = valorPago;
+            this.HoraEvento = horaEvento;
             //this.LinkAprovação = linkaprovação;
         }
 
@@ -55,7 +59,7 @@ namespace MicroserviceNogeco.Models
 
             if (string.IsNullOrEmpty(NomeEvento)){mensagemerro.Append("O nome do evento é obrigatório. ");}
             if (string.IsNullOrEmpty(DescricaoEvento)){mensagemerro.Append("A descrição do evento é obrigatória. ");}
-            if (DataEvento == default(DateTime)){mensagemerro.Append("A data do evento é obrigatória.");}
+            //if (DataEvento == default(DateTime)){mensagemerro.Append("A data do evento é obrigatória.");}
             if (string.IsNullOrEmpty(LocalEvento)) { mensagemerro.Append("O local do evento é obrigatório. "); }
             if (string.IsNullOrEmpty(Skill_1)){mensagemerro.Append("A Skill é obrigatória. ");}
             if (string.IsNullOrEmpty(DiaSemana)) { mensagemerro.Append("O dia da semanada é obrigatório. "); }

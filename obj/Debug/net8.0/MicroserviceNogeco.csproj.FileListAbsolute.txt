@@ -33,3 +33,4 @@ C:\Microservico_dev\MicroserviceNogeco\obj\Debug\net8.0\refint\MicroserviceNogec
 C:\Microservico_dev\MicroserviceNogeco\obj\Debug\net8.0\MicroserviceNogeco.pdb
 C:\Microservico_dev\MicroserviceNogeco\obj\Debug\net8.0\MicroserviceNogeco.genruntimeconfig.cache
 C:\Microservico_dev\MicroserviceNogeco\obj\Debug\net8.0\ref\MicroserviceNogeco.dll
+C:\Microservico_dev\MicroserviceNogeco\obj\Debug\net8.0\MicroserviceNogeco.sourcelink.json

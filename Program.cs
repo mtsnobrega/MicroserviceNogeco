@@ -1,5 +1,5 @@
 using MicroserviceNogeco.Controllers;
-using MicroserviceNogeco.Models;
+using MicroserviceNogeco.Models.FactoryNotificationSender;
 using MicroserviceNogeco.Models.StrategyNotificationSender;
 using MicroserviceNogeco.Models.StrategySearchFrellancer;
 using MicroserviceNogeco.Repository;
@@ -16,12 +16,17 @@ builder.Services.AddScoped<NotificationService>();
 
 builder.Services.AddScoped<IFrellaRepository, FrellaRepository>();
 
-builder.Services.AddHttpClient<INotificationSender, WhatsAppSender>();
+
+builder.Services.AddHttpClient<INotificationSenderStrategy, EmailSenderStrategy>();
+builder.Services.AddHttpClient<INotificationSenderStrategy, WhatsAppSenderStrategy>();
+
 
 
 builder.Services.AddScoped<IFrellancerSearchStrategy, NormalSearchStrategy>();
 builder.Services.AddScoped<NormalSearchStrategy>(); // Opcional, mas útil para injeção direta
 builder.Services.AddScoped<EmergencySearchStrategy>();
+
+builder.Services.AddScoped<NotificationFactory>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -14,7 +14,7 @@ namespace MicroserviceNogeco.Controllers
             var rout_notification = app.MapGroup("/notification");
 
             //Post - Coletar dados de um evento e enviar notificação
-            rout_notification.MapPost("/", async (Notification notification, NotificationService service, NormalSearchStrategy normalStrategy) =>
+            rout_notification.MapPost("/", async ( Notification notification, NotificationService service, NormalSearchStrategy normalStrategy) =>
             {
                 var mensagemErro = notification.Validate();
 
@@ -27,7 +27,6 @@ namespace MicroserviceNogeco.Controllers
                 return Results.Ok(resultado);
             })
                 .WithDescription("Este endpoint recebe os dados do evento e envia uma notificação para os usuários com base no filtro.");
-
 
 
 
@@ -44,6 +43,8 @@ namespace MicroserviceNogeco.Controllers
                 var resultado = await service.Send_EmergencyNotification(notification, emergencyStrategy);
                 return Results.Ok(resultado);
             });
+
+
 
             //Post - Coletar dados do evento cancelado e avisar os frellancers do cancelamento
             rout_notification.MapPost("/canceled_event", async () =>
