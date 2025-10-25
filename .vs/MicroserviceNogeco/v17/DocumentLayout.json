@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Microservico_dev\\MicroserviceNogeco\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\models\\strategynotificationsender\\emailsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:models\\strategynotificationsender\\emailsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 329,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +35,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSenderStrategy.cs",
+              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
+              "RelativeDocumentMoniker": "Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
+              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
+              "RelativeToolTip": "Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwB0AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T17:18:41.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-25T17:18:16.684Z",
+              "EditorCaption": ""
             }
           ]
         }

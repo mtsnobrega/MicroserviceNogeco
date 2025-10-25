@@ -27,7 +27,7 @@ namespace MicroserviceNogeco.Models.StrategyNotificationSender
                 smtpClient.EnableSsl = true;
                 smtpClient.Timeout = 60 * 60;
                 smtpClient.UseDefaultCredentials = false;
-                smtpClient.Credentials = new System.Net.NetworkCredential("msnobrega@aluno.riobrancofac.edu.br", "ctmb qmnv eziv hgkp");
+                smtpClient.Credentials = new System.Net.NetworkCredential("msnobrega@aluno.riobrancofac.edu.br", "");
                 mailMessage.From = new MailAddress("msnobrega@aluno.riobrancofac.edu.br", "Teste001");
                 mailMessage.Subject = "Notificação de Evento - Nogeco";
                 mailMessage.Body = $"Olá {recipient.Nome},\n\n" +

@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Microservico_dev\\MicroserviceNogeco\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\microservicenogeco.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:microservicenogeco.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\models\\strategynotificationsender\\inotificationsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:models\\strategynotificationsender\\inotificationsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\models\\strategynotificationsender\\whatsappsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:models\\strategynotificationsender\\whatsappsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\models\\strategynotificationsender\\emailsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:models\\strategynotificationsender\\emailsenderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\models\\factorynotificationsender\\notificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:models\\factorynotificationsender\\notificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\repository\\frellarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:repository\\frellarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|c:\\microservico_dev\\microservicenogeco\\service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF32BA9F-5AD6-4D1F-9ED6-79F963475B40}|MicroserviceNogeco.csproj|solutionrelative:service\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 329,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,117 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MicroserviceNogeco.http",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\MicroserviceNogeco.http",
-              "RelativeDocumentMoniker": "MicroserviceNogeco.http",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\MicroserviceNogeco.http*",
-              "RelativeToolTip": "MicroserviceNogeco.http*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-10-25T16:53:13.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrellaRepository.cs",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Repository\\FrellaRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\FrellaRepository.cs",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Repository\\FrellaRepository.cs",
-              "RelativeToolTip": "Repository\\FrellaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAACVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:02:22.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "INotificationSenderStrategy.cs",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\INotificationSenderStrategy.cs",
-              "RelativeDocumentMoniker": "Models\\StrategyNotificationSender\\INotificationSenderStrategy.cs",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\INotificationSenderStrategy.cs",
-              "RelativeToolTip": "Models\\StrategyNotificationSender\\INotificationSenderStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:01:26.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmailSenderStrategy.cs",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
-              "RelativeDocumentMoniker": "Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
-              "RelativeToolTip": "Models\\StrategyNotificationSender\\EmailSenderStrategy.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwDcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:01:24.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:01:10.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-20T03:58:51.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WhatsAppSenderStrategy.cs",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\WhatsAppSenderStrategy.cs",
-              "RelativeDocumentMoniker": "Models\\StrategyNotificationSender\\WhatsAppSenderStrategy.cs",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\StrategyNotificationSender\\WhatsAppSenderStrategy.cs",
-              "RelativeToolTip": "Models\\StrategyNotificationSender\\WhatsAppSenderStrategy.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAuwDgAAAB6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T03:53:04.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NotificationService.cs",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Service\\NotificationService.cs",
-              "RelativeDocumentMoniker": "Service\\NotificationService.cs",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Service\\NotificationService.cs",
-              "RelativeToolTip": "Service\\NotificationService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwBgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T03:52:05.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NotificationFactory.cs",
-              "DocumentMoniker": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\FactoryNotificationSender\\NotificationFactory.cs",
-              "RelativeDocumentMoniker": "Models\\FactoryNotificationSender\\NotificationFactory.cs",
-              "ToolTip": "C:\\Microservico_dev\\MicroserviceNogeco\\Models\\FactoryNotificationSender\\NotificationFactory.cs",
-              "RelativeToolTip": "Models\\FactoryNotificationSender\\NotificationFactory.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwCkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T03:20:01.49Z"
             }
           ]
         }
